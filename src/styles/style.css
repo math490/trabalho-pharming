@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 
 }
-body{
+body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 67, 106, 0.699)), url("../img/wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@ body{
     flex-direction: column;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,13 +32,13 @@ header h1 {
     height: 15vh;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main h2{
+main h2 {
     font-size: 30rem;
     text-align: center;
     background: linear-gradient(to bottom, white, gray);
@@ -46,7 +46,7 @@ main h2{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-main sup{
+main sup {
     font-size: 5rem;
     margin-top: -15rem;
     margin-left: -5rem;
