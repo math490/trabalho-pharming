@@ -43,6 +43,7 @@ main h2{
     text-align: center;
     background: linear-gradient(to bottom, white, gray);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 main sup{
